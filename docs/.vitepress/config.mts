@@ -8,7 +8,7 @@ export default defineConfig({
 
   // 站点地图
   sitemap: {
-    hostname: 'https://learnopencode.com',
+    hostname: 'https://opencode.5200919.xyz',
   },
 
   head: [
@@ -24,7 +24,7 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'OpenCode 中文教程' }],
     ['meta', { property: 'og:title', content: 'OpenCode 中文教程 - AI 编程助手实战指南' }],
     ['meta', { property: 'og:description', content: 'OpenCode 是终端 AI 编程助手，本教程从零基础到进阶，教你用 AI 写代码、改 Bug、自动化办公。支持智谱、DeepSeek 等国产模型，完全免费开源。' }],
-    ['meta', { property: 'og:image', content: 'https://learnopencode.com/og-image.png' }],
+    ['meta', { property: 'og:image', content: 'https://opencode.5200919.xyz/og-image.png' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '630' }],
 
@@ -32,7 +32,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'OpenCode 中文教程 - AI 编程助手实战指南' }],
     ['meta', { name: 'twitter:description', content: 'OpenCode 是终端 AI 编程助手，本教程从零基础到进阶，教你用 AI 写代码、改 Bug、自动化办公。' }],
-    ['meta', { name: 'twitter:image', content: 'https://learnopencode.com/og-image.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://opencode.5200919.xyz/og-image.png' }],
 
     // 结构化数据 JSON-LD
     ['script', { type: 'application/ld+json' }, JSON.stringify({
@@ -40,7 +40,7 @@ export default defineConfig({
       "@type": "WebSite",
       "name": "OpenCode 中文教程",
       "alternateName": "OpenCode 中文实战课",
-      "url": "https://learnopencode.com",
+      "url": "https://opencode.5200919.xyz",
       "description": "OpenCode 是终端 AI 编程助手，本教程从零基础到进阶，教你用 AI 写代码、改 Bug、自动化办公。",
       "inLanguage": "zh-CN",
       "publisher": {
@@ -48,7 +48,7 @@ export default defineConfig({
         "name": "OpenCode 中文社区",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://learnopencode.com/logo.svg"
+          "url": "https://opencode.5200919.xyz/logo.svg"
         }
       }
     })],
@@ -83,7 +83,7 @@ export default defineConfig({
   ],
 
   transformHead({ pageData }) {
-    const canonicalUrl = `https://learnopencode.com/${pageData.relativePath}`
+    const canonicalUrl = `https://opencode.5200919.xyz/${pageData.relativePath}`
       .replace(/index\.md$/, '')
       .replace(/\.md$/, '.html')
 
