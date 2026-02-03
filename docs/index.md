@@ -15,9 +15,6 @@ hero:
     - theme: alt
       text: 场景实战
       link: /4-scenarios/
-    - theme: alt
-      text: 加入社群
-      link: /community
 
 features:
   - icon:
