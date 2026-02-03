@@ -122,7 +122,6 @@ export default defineConfig({
       { text: '场景实战', link: '/4-scenarios/' },
       { text: '进阶手册', link: '/5-advanced/' },
       { text: '速查手册', link: '/appendix/' },
-      { text: '加入社群', link: '/community' },
     ],
 
     sidebar: [
