@@ -53,29 +53,12 @@ export default defineConfig({
       }
     })],
 
-    // Google AdSense
-    ['script', {
-      async: 'true',
-      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1238777311285568',
-      crossorigin: 'anonymous'
-    }],
-
-    // Google Analytics
-    ['script', { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-1R6TQGK2HZ' }],
-    ['script', {}, `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-1R6TQGK2HZ');
-    `],
-
     // Baidu Analytics
     ['script', {}, `
       var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?3a4b4bd517386d99b8badbdd25bafb7b";
+        hm.src = "https://hm.baidu.com/hm.js?ab15f32ee8f8e1ae65824e913bbb4942";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();
